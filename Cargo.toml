@@ -1,0 +1,18 @@
+[package]
+authors = ["fraser@darwen.tf"]
+name = "can2040"
+version = "0.0.0"
+description = "Rust wrapper of CAN2040, a software CAN implementation for Pi Pico"
+homepage = "https://github.com/fraserdarwent/can2040"
+documentation = "https://github.com/fraserdarwent/can2040"
+repository = "https://github.com/fraserdarwent/can2040"
+readme = "README.md"
+license-file = "COPYING"
+
+[build-dependencies]
+bindgen = "0.63.0"
+cc = "1.0.77"
+cmake = "0.1.49"
+
+[dependencies]
+cty = "0.2.2"
