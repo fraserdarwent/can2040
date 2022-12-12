@@ -14,6 +14,7 @@ bindgen = { version = "0.63.0", default-features = false, features = [
   "logging",
   "runtime",
 ] } # Fix for no_std
+cc = "1.0.77"
 cmake = "0.1.49"
 
 [dependencies]
