@@ -10,8 +10,10 @@ readme = "README.md"
 license-file = "COPYING"
 
 [build-dependencies]
-bindgen = "0.63.0"
-cc = "1.0.77"
+bindgen = { version = "0.63.0", default-features = false, features = [
+  "logging",
+  "runtime",
+] } # Fix for no_std
 cmake = "0.1.49"
 
 [dependencies]
